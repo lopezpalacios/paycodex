@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.vscode/
+
+# Local-only obsidian state (keep config but not personal cache)
+.obsidian/cache/
+
+# Build artifacts (if any future tooling)
+node_modules/
+dist/
+build/
+out/
+
+# Marp output
+*.html
+*.pptx
+*.pdf
+!docs/**/*.pdf
