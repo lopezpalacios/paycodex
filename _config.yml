@@ -1,0 +1,26 @@
+# GitHub Pages Jekyll config
+title: paycodex
+description: Cash Management Knowledge Graph (CH/EU/UK)
+theme: jekyll-theme-minimal
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - "*.md"
+exclude:
+  - .obsidian
+  - "*.pptx"
+  - "*.pdf"
+  - node_modules
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Note: Obsidian-style [[wikilinks]] do not render in Jekyll.
+# For full wiki-style rendering, follow the Quartz migration guide in NEXT-STEPS.md.
