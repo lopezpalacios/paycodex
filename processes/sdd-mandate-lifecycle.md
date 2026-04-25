@@ -49,3 +49,7 @@ stateDiagram-v2
 ## Linked
 
 [[../concepts/sepa-mandate]] · [[originate-sdd]] · [[../states/mandate-lifecycle]] · [[../data/mandate-entity]] · [[../controls/sct-inst-control-catalog]]
+
+## On-chain equivalent
+
+See [`paycodex-onchain` use case 014 — Direct debit mandate](https://github.com/lopezpalacios/paycodex-onchain/blob/main/use-cases/014-direct-debit-mandate.md). Runnable contract in [`paycodex-factory/contracts/14-direct-debit-mandate.sol`](https://github.com/lopezpalacios/paycodex-factory/blob/main/contracts/14-direct-debit-mandate.sol). Mandate state machine + interval enforcement runs on-chain. Note: no equivalent of 8-week refund right — needs off-chain dispute layer.

@@ -76,3 +76,7 @@ sequenceDiagram
 ## Linked
 
 [[../concepts/dvp]] · [[../concepts/t2s]] · [[../concepts/csdr]] · [[../states/settlement-instruction-lifecycle]] · [[../data/sese-messages]]
+
+## On-chain equivalent
+
+See [`paycodex-onchain` use case 031 — Atomic DvP](https://github.com/lopezpalacios/paycodex-onchain/blob/main/use-cases/031-atomic-dvp.md). Runnable contract in [`paycodex-factory/contracts/31-atomic-dvp.sol`](https://github.com/lopezpalacios/paycodex-factory/blob/main/contracts/31-atomic-dvp.sol). DvP atomicity moves from T2S platform to single Ethereum-style transaction; settlement risk eliminated by reverting if either leg fails.

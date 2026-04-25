@@ -85,3 +85,7 @@ See [[../states/payment-lifecycle]].
 ## Linked
 
 [[../concepts/sct-inst]] · [[../concepts/vop]] · [[../architecture/sct-inst-logical]] · [[../controls/sct-inst-control-catalog]]
+
+## On-chain equivalent
+
+See [`paycodex-onchain` use case 001 — ERC-20 instant transfer](https://github.com/lopezpalacios/paycodex-onchain/blob/main/use-cases/001-erc20-instant-transfer.md). Runnable contract in [`paycodex-factory/contracts/01-erc20-transfer.sol`](https://github.com/lopezpalacios/paycodex-factory/blob/main/contracts/01-erc20-transfer.sol). At ~54k gas per transfer, L2 cost is sub-cent vs SCT Inst €0.05-€0.30.
