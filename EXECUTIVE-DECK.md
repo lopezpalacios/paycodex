@@ -178,7 +178,7 @@ Two cross-linked Obsidian-style knowledge graphs.
 **Tier 6 (frontier)**
 - Confidential transfer (Aztec) · ZK-KYC · Diamond tokenization platform
 
-→ 24 use cases have **runnable Solidity demos** in Foundry.
+→ 24 use cases have **runnable Solidity demos** in Hardhat.
 
 ---
 
