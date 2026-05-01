@@ -30,11 +30,23 @@ Monthly billing artifact. Detail: [[concepts/account-analysis]].
 ## Bank revenue stack
 
 1. Fees (hard dollar) — [[concepts/account-analysis]]
-2. Net interest margin on deposits — esp CHF deposits at SNB after negative rate exit
+2. Net interest margin on deposits — see [[concepts/deposit-pricing]] · [[concepts/ftp]] · [[concepts/interest-rate-risk]]; especially CHF deposits at SNB after [[concepts/negative-interest]] exit
 3. Float on payments-in-transit (compressed by instant rails)
 4. FX spread (10-50 bps retail, 1-5 bps wholesale)
 5. Interchange on commercial cards
 6. Cross-sell to lending / IB ([[05-relationships]] RM owns)
+
+## Interest-bearing products — calculation chain
+
+Customer rate ← [[concepts/deposit-pricing]] ← FTP curve ← policy rate + bank's [[concepts/interest-rate-risk]] hedging cost.
+
+For posted interest: see [[concepts/interest-calculation]] · [[concepts/day-count-conventions]] · [[processes/interest-posting]] · [[concepts/withholding-tax]].
+
+For floating products: [[concepts/reference-rates]] (€STR, SOFR, SARON, SONIA, post-LIBOR).
+
+For tiered products: [[concepts/account-tier]].
+
+For programmable / on-chain analogues: [[../paycodex-onchain/concepts/interest-accrual-onchain]] and the runnable PoC at `paycodex-rules-poc/`.
 
 ## Deposit value (post-2023)
 

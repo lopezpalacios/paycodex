@@ -108,10 +108,11 @@ PSD2/PSD3 · Instant Payments Regulation · WTR · AMLA · DORA · GDPR · Swiss
 
 ## DLT/EVM companion + factory
 
-This graph has two companion repos for cash management on DLT:
+This graph has three companion repos for cash management on DLT:
 
 - [**`paycodex-onchain`**](https://github.com/lopezpalacios/paycodex-onchain) — knowledge graph: same products mapped to EVM-based DLT (permissioned + permissionless)
 - [**`paycodex-factory`**](https://github.com/lopezpalacios/paycodex-factory) — runnable Hardhat project with 24 contracts, 14 TypeScript tests, gas reports, GitHub Actions CI
+- [**`paycodex-rules-poc`**](https://github.com/lopezpalacios/paycodex-rules-poc) — rule-driven interest-bearing deposit factory: Hardhat + AssemblyScript WASM + Besu IBFT2 (Docker). 8 canonical interest rules (simple, compound, tiered, floating, KPI-linked, floor/cap, two-track ECR, CH withholding). WASM-Solidity parity tested.
 
 ```mermaid
 flowchart LR
@@ -119,6 +120,8 @@ flowchart LR
     DLT -->|sources snippets| Factory[paycodex-factory<br/>Hardhat + TS + CI]
     Factory -->|gas + tests| RES[(RESULTS.md)]
     RES --> DLT
+    Inc -->|rule schema| Rules[paycodex-rules-poc<br/>WASM + Solidity + Besu]
+    DLT -->|patterns| Rules
 ```
 
 ## Reference

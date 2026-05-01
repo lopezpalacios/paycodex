@@ -18,4 +18,5 @@ Auto-move balances to optimize yield or pay down debt.
 
 ## Related
 
-[[zba]] · [[02-products]] · [[04-daily-ops]]
+[[zba]] · [[02-products]] · [[04-daily-ops]] · [[interest-calculation]] · [[deposit-pricing]] · [[ftp]]
+

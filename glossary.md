@@ -9,6 +9,10 @@ Acronyms + terms used across the graph. Alphabetical.
 - **ADDACS** — Bacs DDI cancellation / amendment message
 - **AEOI** — Automatic Exchange of Information (tax)
 - **AFP** — Association for Financial Professionals (US)
+- **act/360** — Day-count convention. See [[concepts/day-count-conventions]]
+- **act/365** — Day-count convention. See [[concepts/day-count-conventions]]
+- **ALM** — Asset-Liability Management
+- **act/act-ISDA** — Day-count convention split per leap-year boundary. See [[concepts/day-count-conventions]]
 - **AISP** — Account Information Service Provider (PSD2). See [[regulations/psd2-psd3]]
 - **AMLA** — Anti-Money Laundering Authority (EU body, Frankfurt). See [[regulations/amld-amlr-amla]]
 - **AMLD** — Anti-Money Laundering Directive (EU). See [[regulations/amld-amlr-amla]]
@@ -35,6 +39,8 @@ Acronyms + terms used across the graph. Alphabetical.
 - **BIC** — Business Identifier Code (8 or 11 chars, ISO 9362)
 - **BoE** — Bank of England. See [[operators/boe]]
 - **BSA** — Bank Secrecy Act (US)
+- **bps** — Basis points; 1 bp = 0.01%
+- **beta** (deposit) — Pass-through fraction of policy-rate move to deposit rate. See [[concepts/deposit-pricing]]
 
 ## C
 
@@ -78,6 +84,8 @@ Acronyms + terms used across the graph. Alphabetical.
 - **ECB** — European Central Bank. See [[operators/ecb-eurosystem]]
 - **ECMS** — Eurosystem Collateral Management System
 - **ECR** — Earnings Credit Rate. See [[concepts/ecr]]
+- **€STR** — Euro Short-Term Rate (ECB-published RFR, replaces EONIA). See [[concepts/reference-rates]]
+- **EVE** — Economic Value of Equity (IRRBB metric). See [[concepts/interest-rate-risk]]
 - **EDD** — Enhanced Due Diligence
 - **EID** — Electronic Identity
 - **EMIR** — European Market Infrastructure Regulation. See [[regulations/emir]]
@@ -85,6 +93,8 @@ Acronyms + terms used across the graph. Alphabetical.
 - **EPC** — European Payments Council (SEPA scheme rulebooks). See [[operators/epc]]
 - **ESR** — Einzahlungsschein mit Referenznummer (CH legacy payment slip, retired 2022)
 - **euroSIC** — Swiss EUR clearing service. See [[concepts/eurosic]]
+
+- **FTP** — Funds Transfer Pricing (internal funding allocation). See [[concepts/ftp]]
 
 ## F
 
@@ -122,6 +132,7 @@ Acronyms + terms used across the graph. Alphabetical.
 - **ICSD** — International Central Securities Depository
 - **IID** — Bank ID portion of Swiss BBAN
 - **IPR** — Instant Payments Regulation (EU 2024/886). See [[regulations/instant-payments-regulation]]
+- **IRRBB** — Interest Rate Risk in the Banking Book (Basel III). See [[concepts/interest-rate-risk]]
 - **ISO** — International Organization for Standardization
 - **ISO 20022** — XML messaging standard for finance. See [[concepts/iso-20022]]
 - **ISR** — Einzahlungsschein (CH legacy payment slip, retired 2022)
@@ -155,6 +166,8 @@ Acronyms + terms used across the graph. Alphabetical.
 - **NACHA** — National Automated Clearing House Association (US ACH rules)
 - **NAV** — Net Asset Value (MMF)
 - **NCB** — National Central Bank
+- **NII** — Net Interest Income. Earnings perspective for IRRBB. See [[concepts/interest-rate-risk]]
+- **NIM** — Net Interest Margin. See [[concepts/deposit-pricing]] · [[06-pricing-revenue]]
 - **NPA** — New Payments Architecture (UK Pay.UK programme). See [[operators/pay-uk]]
 - **NSFR** — Net Stable Funding Ratio (Basel III). See [[concepts/nsfr]]
 
@@ -211,6 +224,9 @@ Acronyms + terms used across the graph. Alphabetical.
 - **SCOR** — Structured Creditor Reference (ISO 11649 RF)
 - **SDD** — SEPA Direct Debit (Core / B2B variants). See [[concepts/sepa-sdd]]
 - **SDN** — Specially Designated National (OFAC list)
+- **SARON** — Swiss Average Rate Overnight (CHF RFR, post-LIBOR). See [[concepts/reference-rates]]
+- **SOFR** — Secured Overnight Financing Rate (USD RFR, post-LIBOR). See [[concepts/reference-rates]]
+- **SONIA** — Sterling Overnight Index Average (GBP RFR, post-LIBOR). See [[concepts/reference-rates]]
 - **SECO** — State Secretariat for Economic Affairs (CH, sanctions)
 - **SEPA** — Single Euro Payments Area. See [[data/reference/sepa-countries]]
 - **SeqTp** — Sequence Type (FRST/RCUR/OOFF/FNAL, SDD)
@@ -260,6 +276,8 @@ Acronyms + terms used across the graph. Alphabetical.
 ## W
 
 - **WTR** — Wire Transfer Regulation (EU). See [[regulations/wtr-travel-rule]]
+- **WHT** — Withholding Tax (interest, dividends). See [[concepts/withholding-tax]]
+- **VST** — Verrechnungssteuer (Swiss federal withholding tax). See [[concepts/withholding-tax]]
 
 ## X
 
